@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Lista osób</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="main.js" defer></script>
+
+
+</head>
+
+<body>
+
+	<h2>lista osób</h2>
+	<table class="table" border="1" cellspacing="0" cellpadding="5" id="table">
+		<tr>
+			<th>Id</th>
+			<th>Imie</th>
+			<th>Nazwisko</th>
+			<th>Telefon</th>
+			<th>Email</th>
+			<th>Actions</th>
+		</tr>
+	</table>
+	<button class="add">Dodać rekord</button>
+
+	<div class="modal">
+		<button class="close">x</button>
+		<div class="input-group">
+			
+			<label>Imie</label>
+			<input type="text" id="name" name="name" value="">
+			<label>Nazwisko</label>
+			<input type="text" id="surname" name="surname" value="">
+			<label>Telefon</label>
+			<input type="text" id="phone" name="phone" value="">
+			<label>Email</label>
+			<input type="text" id="email" name="email" value="">
+		</div>
+		<div class="input-group">
+			<button class="btn" type="button" id="addNew">Save</button>
+		</div>
+	</div>
+
+
+	<p />
+
+
+
+</body>
+
+</html>
